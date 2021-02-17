@@ -60,5 +60,5 @@ docs = ["mkdocs", "mkautodoc"]
 profile = "black"
 
 [build-system]
-requires = ["poetry>=1.0.4"]
+requires = ["poetry>=1.0.4", "setuptools"]
 build-backend = "poetry.masonry.api"
